@@ -1,0 +1,8 @@
+{
+  "sourceCurrency": "GBP",
+  "targetCurrency": "EUR",
+  "sourceAmount": 100,
+  "targetAmount": null,
+  "payOut": "BANK_TRANSFER",
+  "preferredPayIn": "BALANCE"
+}

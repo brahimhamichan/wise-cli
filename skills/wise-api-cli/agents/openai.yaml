@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wise API CLI"
+  short_description: "Current Wise Platform CLI and endpoint guide"
+  default_prompt: "Use $wise-api-cli to work with the latest Wise Platform API through the local CLI, falling back to raw requests when a dedicated command does not exist."
+
+policy:
+  allow_implicit_invocation: true
