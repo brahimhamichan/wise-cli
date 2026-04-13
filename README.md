@@ -138,6 +138,14 @@ wise api POST /v1/transfers --body @transfer.json
 
 The repo also ships a Codex skill at `skills/wise-api-cli/` so the same repository can be used as both a CLI and a reusable agent skill.
 
+Install the skill directly from GitHub:
+
+```bash
+npx skills add https://github.com/brahimhamichan/wise-cli --skill wise-api-cli
+```
+
+`skills.sh` indexing is telemetry-based from `skills add` installs, so discovery can lag after release.
+
 ## Development
 
 ```bash
