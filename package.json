@@ -1,0 +1,56 @@
+{
+  "name": "@brahimhamichan/wise-cli",
+  "version": "0.1.0",
+  "description": "Public Wise Platform CLI for profiles, balances, recipients, quotes, transfers, statements, and raw API calls.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brahimhamichan/wise-cli.git"
+  },
+  "homepage": "https://github.com/brahimhamichan/wise-cli#readme",
+  "bugs": {
+    "url": "https://github.com/brahimhamichan/wise-cli/issues"
+  },
+  "keywords": [
+    "wise",
+    "wise-platform",
+    "transferwise",
+    "cli",
+    "payments",
+    "finance"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "wise": "./bin/run.js",
+    "wise-cli": "./bin/run.js"
+  },
+  "files": [
+    "bin/",
+    "dist/",
+    "examples/",
+    "skills/"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "clean": "rm -rf dist coverage",
+    "prepare": "npm run build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run build && npm run test",
+    "pack:check": "npm pack --dry-run"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  }
+}
