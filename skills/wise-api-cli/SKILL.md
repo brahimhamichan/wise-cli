@@ -1,11 +1,17 @@
 ---
 name: wise-api-cli
-description: Use when working with the current Wise Platform API through this repository's CLI, including token setup, profiles, balances, recipients, quotes, transfers, statements, supported currencies, and raw Wise API requests.
+description: Use when working with the current Wise Platform API, Wise CLI automation, TransferWise API workflows, personal-token setup, profiles, balances, recipients, quotes, transfers, statements, supported currencies, and raw Wise API requests.
 ---
 
 # Wise API CLI
 
 Use this skill when the task is about Wise API automation and the local `wise` CLI from this repo is the preferred execution path.
+
+Install this skill from GitHub:
+
+```bash
+npx skills add https://github.com/brahimhamichan/wise-cli --skill wise-api-cli
+```
 
 ## Workflow
 
