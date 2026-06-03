@@ -8,7 +8,7 @@
   An unofficial, open source CLI for the Wise Platform API.
 </p>
 
-[![npm package](https://img.shields.io/badge/npm-configured%2C%20not%20published-lightgrey)](https://www.npmjs.com/package/@brahimhamichan/wise-cli)
+[![npm](https://img.shields.io/npm/v/%40brahimhamichan%2Fwise-cli)](https://www.npmjs.com/package/@brahimhamichan/wise-cli)
 [![CI](https://github.com/brahimhamichan/wise-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/brahimhamichan/wise-cli/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node.js >=20](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](package.json)
@@ -43,18 +43,16 @@ This project does not provide financial, legal, tax, or compliance advice. You a
 
 ## Install
 
-The GitHub repo is public as `brahimhamichan/wise-cli`. The npm package is configured as `@brahimhamichan/wise-cli` because the unscoped `wise-cli` name is already taken on npm.
-
-Until the package is published to npm, install from the GitHub repo:
-
-```bash
-npm install -g github:brahimhamichan/wise-cli
-```
-
-After the npm package is published:
+The GitHub repo is public as `brahimhamichan/wise-cli`. The npm package is scoped as `@brahimhamichan/wise-cli` because the unscoped `wise-cli` name is already taken on npm.
 
 ```bash
 npm install -g @brahimhamichan/wise-cli
+```
+
+You can also install directly from GitHub:
+
+```bash
+npm install -g github:brahimhamichan/wise-cli
 ```
 
 Or run it directly from the repo:

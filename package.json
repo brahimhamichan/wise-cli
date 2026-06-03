@@ -32,8 +32,8 @@
     "access": "public"
   },
   "bin": {
-    "wise": "./bin/run.js",
-    "wise-cli": "./bin/run.js"
+    "wise": "bin/run.js",
+    "wise-cli": "bin/run.js"
   },
   "files": [
     "bin/",
