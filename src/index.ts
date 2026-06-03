@@ -17,7 +17,7 @@ export async function main(argv = process.argv): Promise<void> {
   program
     .name("wise")
     .description("Wise Platform CLI for profiles, balances, recipients, quotes, transfers, statements, and raw API calls.")
-    .version("0.1.0")
+    .version("0.1.2")
     .showHelpAfterError()
     .option("--api-token <token>", "Override the configured Wise token for one command")
     .option("--base-url <url>", "Override the Wise API base URL")

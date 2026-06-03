@@ -40,7 +40,7 @@ export class WiseClient {
 
     const method = (options.method ?? "GET").toUpperCase();
     const headers = new Headers(options.headers);
-    headers.set("User-Agent", "@brahimhamichan/wise-cli/0.1.0");
+    headers.set("User-Agent", "@brahimhamichan/wise-cli/0.1.2");
 
     if (!options.tokenOptional) {
       if (!this.config.token) {
