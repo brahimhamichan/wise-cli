@@ -20,7 +20,13 @@ Why I built it:
 - Some workflows are easier to automate from a terminal or CI job than from custom app code.
 - A raw `wise api` command keeps the CLI useful when Wise adds endpoints before dedicated commands exist.
 
-Install:
+Install from GitHub:
+
+```bash
+npm install -g github:brahimhamichan/wise-cli
+```
+
+The npm package is configured as `@brahimhamichan/wise-cli` and can be published when ready:
 
 ```bash
 npm install -g @brahimhamichan/wise-cli

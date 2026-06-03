@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">wise-cli logo</title>
+  <desc id="desc">A terminal prompt inside a circular mark for the independent wise-cli open source project.</desc>
+  <rect width="256" height="256" rx="56" fill="#0b1115"/>
+  <circle cx="128" cy="128" r="88" fill="#163f33"/>
+  <circle cx="128" cy="128" r="72" fill="#9fe870"/>
+  <path d="M73 111l30 17-30 17v-16l16-1-16-1z" fill="#0b1115"/>
+  <rect x="112" y="142" width="72" height="13" rx="6.5" fill="#0b1115"/>
+  <path d="M85 82h86c18 0 32 14 32 32v50c0 18-14 32-32 32H85c-18 0-32-14-32-32v-50c0-18 14-32 32-32zm0 18c-8 0-14 6-14 14v50c0 8 6 14 14 14h86c8 0 14-6 14-14v-50c0-8-6-14-14-14H85z" fill="#0b1115"/>
+</svg>
