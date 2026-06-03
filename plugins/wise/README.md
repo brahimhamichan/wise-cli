@@ -11,4 +11,4 @@ The plugin supports workflows for:
 - Transfers, receipts, and statements
 - Raw Wise API requests through `wise api`
 
-The Wise logo asset is sourced unmodified from Wise's public resources at `https://wise.com/public-resources/assets/logos/wise/brand_logo.svg`. Wise trademarks remain the property of Wise Payments Limited and related Wise entities. This plugin is not affiliated with or endorsed by Wise.
+The Wise icon asset uses the current green Wise brand mark supplied for this plugin and mirrored in `docs/assets/wise-icon.png` for the GitHub README. Wise trademarks remain the property of Wise Payments Limited and related Wise entities. This plugin is not affiliated with or endorsed by Wise.
