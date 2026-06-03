@@ -1,6 +1,6 @@
 {
   "name": "@brahimhamichan/wise-cli",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Unofficial open source CLI for Wise Platform API profiles, balances, recipients, quotes, transfers, statements, and raw API calls.",
   "license": "MIT",
   "type": "module",
