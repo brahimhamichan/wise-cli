@@ -1,6 +1,14 @@
-# wise-cli
+<p align="center">
+  <img src="docs/assets/logo.svg" alt="wise-cli logo" width="128" height="128">
+</p>
 
-[![npm](https://img.shields.io/npm/v/%40brahimhamichan%2Fwise-cli)](https://www.npmjs.com/package/@brahimhamichan/wise-cli)
+<h1 align="center">wise-cli</h1>
+
+<p align="center">
+  An unofficial, open source CLI for the Wise Platform API.
+</p>
+
+[![npm package](https://img.shields.io/badge/npm-configured%2C%20not%20published-lightgrey)](https://www.npmjs.com/package/@brahimhamichan/wise-cli)
 [![CI](https://github.com/brahimhamichan/wise-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/brahimhamichan/wise-cli/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node.js >=20](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](package.json)
@@ -8,7 +16,7 @@
 
 Use the Wise Platform API from your terminal.
 
-`wise-cli` is an unofficial TypeScript CLI for the current Wise Platform API. It wraps profile, balance, recipient, quote, transfer, statement, and currency endpoints behind one command surface while leaving a raw `wise api` escape hatch for newly released endpoints.
+`wise-cli` is an independent TypeScript CLI for the current Wise Platform API. It wraps profile, balance, recipient, quote, transfer, statement, and currency endpoints behind one command surface while leaving a raw `wise api` escape hatch for newly released endpoints.
 
 ![wise-cli terminal demo](docs/assets/terminal-demo.svg)
 
@@ -17,7 +25,15 @@ This first public release is intentionally conservative:
 - It is built around the currently documented Wise production and sandbox APIs.
 - It supports personal-token auth out of the box.
 - It keeps dynamic payloads as JSON bodies so the CLI stays compatible with Wise's mixed endpoint versions and changing requirements.
-- It is not affiliated with, endorsed by, or maintained by Wise.
+- It is independent and not affiliated with Wise.
+
+## Legal disclaimer
+
+`wise-cli` is an open source community project. It is not affiliated with, sponsored by, endorsed by, or maintained by Wise Payments Limited, Wise plc, Wise.com, or any Wise group company.
+
+Wise, Wise Platform, Wise.com, and TransferWise are trademarks or registered trademarks of Wise Payments Limited or its affiliates. Any use of those names in this project is solely for identification, interoperability, and documentation of the public Wise Platform API.
+
+This project does not provide financial, legal, tax, or compliance advice. You are responsible for complying with Wise's terms, API requirements, token permissions, regional restrictions, and all applicable laws when using this CLI.
 
 ## Why use it?
 
@@ -27,7 +43,15 @@ This first public release is intentionally conservative:
 
 ## Install
 
-The GitHub repo is public as `brahimhamichan/wise-cli`. The npm package is scoped because the unscoped `wise-cli` name is already taken on npm.
+The GitHub repo is public as `brahimhamichan/wise-cli`. The npm package is configured as `@brahimhamichan/wise-cli` because the unscoped `wise-cli` name is already taken on npm.
+
+Until the package is published to npm, install from the GitHub repo:
+
+```bash
+npm install -g github:brahimhamichan/wise-cli
+```
+
+After the npm package is published:
 
 ```bash
 npm install -g @brahimhamichan/wise-cli
@@ -192,6 +216,7 @@ The current implementation and references were aligned against Wise's public doc
 
 - [Getting started](https://docs.wise.com/guides/developer)
 - [Security and access](https://docs.wise.com/guides/developer/auth-and-security)
+- [Wise API terms and conditions](https://wise.com/public-resources/assets/documents/api/api_terms_and_conditions.pdf)
 - [API reference overview](https://docs.wise.com/api-reference)
 - [Versioning](https://docs.wise.com/api-docs/api-reference/versioning)
 - [Profile](https://docs.wise.com/api-reference/profile/profile)
