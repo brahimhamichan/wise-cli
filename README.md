@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/logo.svg" alt="wise-cli logo" width="128" height="128">
+  <img src="docs/assets/wise-icon.png" alt="Wise icon" width="128" height="128">
 </p>
 
 <h1 align="center">wise-cli</h1>

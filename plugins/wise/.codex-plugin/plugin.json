@@ -36,8 +36,8 @@
       "List my Wise profiles and balances.",
       "Create a Wise quote from JSON."
     ],
-    "brandColor": "#00B9FF",
-    "composerIcon": "./assets/wise-logo.svg",
-    "logo": "./assets/wise-logo.svg"
+    "brandColor": "#9FE870",
+    "composerIcon": "./assets/wise-icon.png",
+    "logo": "./assets/wise-icon.png"
   }
 }
