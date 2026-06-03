@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430" role="img" aria-labelledby="title desc">
+  <title id="title">wise-cli terminal demo</title>
+  <desc id="desc">A terminal screenshot showing wise-cli profile, balance, and raw API commands.</desc>
+  <rect width="920" height="430" fill="#0b0f14"/>
+  <rect x="24" y="24" width="872" height="382" rx="8" fill="#111820" stroke="#25313d"/>
+  <circle cx="48" cy="48" r="6" fill="#ff5f57"/>
+  <circle cx="70" cy="48" r="6" fill="#ffbd2e"/>
+  <circle cx="92" cy="48" r="6" fill="#28c840"/>
+  <text x="40" y="92" fill="#8b949e" font-family="Menlo, Consolas, monospace" font-size="16">$ wise auth status</text>
+  <text x="40" y="122" fill="#d1d7de" font-family="Menlo, Consolas, monospace" font-size="16">Authenticated with https://api.wise.com</text>
+  <text x="40" y="162" fill="#8b949e" font-family="Menlo, Consolas, monospace" font-size="16">$ wise profile list --output json</text>
+  <text x="40" y="192" fill="#d1d7de" font-family="Menlo, Consolas, monospace" font-size="16">[{"id":12345678,"type":"personal","details":{"firstName":"Ada"}}]</text>
+  <text x="40" y="232" fill="#8b949e" font-family="Menlo, Consolas, monospace" font-size="16">$ wise --profile-id 12345678 balance list</text>
+  <text x="40" y="262" fill="#d1d7de" font-family="Menlo, Consolas, monospace" font-size="16">ID        currency  amount</text>
+  <text x="40" y="292" fill="#d1d7de" font-family="Menlo, Consolas, monospace" font-size="16">99887766  EUR       250.00</text>
+  <text x="40" y="332" fill="#8b949e" font-family="Menlo, Consolas, monospace" font-size="16">$ wise api GET /v2/profiles</text>
+  <text x="40" y="362" fill="#58a6ff" font-family="Menlo, Consolas, monospace" font-size="16">Raw Wise API access when you need an escape hatch.</text>
+</svg>

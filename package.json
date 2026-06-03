@@ -17,6 +17,11 @@
     "wise-platform",
     "transferwise",
     "cli",
+    "api-client",
+    "automation",
+    "developer-tools",
+    "fintech",
+    "nodejs",
     "payments",
     "finance"
   ],
@@ -32,8 +37,10 @@
   },
   "files": [
     "bin/",
+    "docs/",
     "dist/",
     "examples/",
+    "skills.sh.json",
     "skills/"
   ],
   "scripts": {
@@ -51,6 +58,6 @@
   "devDependencies": {
     "@types/node": "^22.15.3",
     "typescript": "^5.8.3",
-    "vitest": "^3.1.2"
+    "vitest": "^4.1.8"
   }
 }

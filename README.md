@@ -1,12 +1,29 @@
 # wise-cli
 
-`wise-cli` is a public TypeScript CLI for the current Wise Platform API. It wraps the most useful profile, balance, recipient, quote, transfer, statement, and currency endpoints behind one command surface while leaving a raw `wise api` escape hatch for newly released endpoints.
+[![npm](https://img.shields.io/npm/v/%40brahimhamichan%2Fwise-cli)](https://www.npmjs.com/package/@brahimhamichan/wise-cli)
+[![CI](https://github.com/brahimhamichan/wise-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/brahimhamichan/wise-cli/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Node.js >=20](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](package.json)
+[![skills.sh](https://skills.sh/b/brahimhamichan/wise-cli)](https://skills.sh/brahimhamichan/wise-cli)
+
+Use the Wise Platform API from your terminal.
+
+`wise-cli` is an unofficial TypeScript CLI for the current Wise Platform API. It wraps profile, balance, recipient, quote, transfer, statement, and currency endpoints behind one command surface while leaving a raw `wise api` escape hatch for newly released endpoints.
+
+![wise-cli terminal demo](docs/assets/terminal-demo.svg)
 
 This first public release is intentionally conservative:
 
 - It is built around the currently documented Wise production and sandbox APIs.
 - It supports personal-token auth out of the box.
 - It keeps dynamic payloads as JSON bodies so the CLI stays compatible with Wise's mixed endpoint versions and changing requirements.
+- It is not affiliated with, endorsed by, or maintained by Wise.
+
+## Why use it?
+
+- Avoid memorizing Wise's mixed API endpoint versions for common workflows.
+- Automate Wise API tasks from scripts, CI jobs, and agent workflows.
+- Keep using newly released or specialized endpoints through `wise api`.
 
 ## Install
 
@@ -134,9 +151,15 @@ wise api GET /v2/profiles
 wise api POST /v1/transfers --body @transfer.json
 ```
 
+More copy-paste workflows:
+
+- [Export a Wise balance statement as JSON](docs/recipes/export-balance-statement.md)
+- [Create a Wise quote from a JSON file](docs/recipes/create-quote.md)
+- [Download a Wise transfer receipt as PDF](docs/recipes/download-transfer-receipt.md)
+
 ## Skill
 
-The repo also ships a Codex skill at `skills/wise-api-cli/` so the same repository can be used as both a CLI and a reusable agent skill.
+The repo also ships a Codex skill at `skills/wise-api-cli/` so the same repository can be used as both a CLI and a reusable agent skill for Wise API automation.
 
 Install the skill directly from GitHub:
 
@@ -144,7 +167,15 @@ Install the skill directly from GitHub:
 npx skills add https://github.com/brahimhamichan/wise-cli --skill wise-api-cli
 ```
 
-`skills.sh` indexing is telemetry-based from `skills add` installs, so discovery can lag after release.
+`skills.sh` indexing is telemetry-based from `skills add` installs, so discovery can lag until at least one telemetry-enabled install has been recorded and the skills.sh cache refreshes.
+
+## Roadmap
+
+- Webhook helper commands for event-driven Wise automation.
+- Batch transfer and batch quote workflows.
+- Shell completions for common command flags.
+- Interactive auth and profile selection.
+- Additional statement formats and export helpers.
 
 ## Development
 
