@@ -1,0 +1,43 @@
+{
+  "name": "wise",
+  "version": "0.1.0",
+  "description": "Wise API workflow plugin for Codex.",
+  "author": {
+    "name": "Brahim Hamichan",
+    "url": "https://github.com/brahimhamichan"
+  },
+  "homepage": "https://github.com/brahimhamichan/wise-cli#readme",
+  "repository": "https://github.com/brahimhamichan/wise-cli",
+  "license": "MIT",
+  "keywords": [
+    "wise",
+    "wise-platform",
+    "payments",
+    "fintech",
+    "cli"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Wise",
+    "shortDescription": "Work with Wise profiles, balances, quotes, recipients, transfers, and statements.",
+    "longDescription": "Wise gives Codex a reusable workflow for the Wise Platform API through the published wise-cli command surface. It helps with token setup, profiles, balances, recipients, quotes, transfers, statements, supported currencies, and raw Wise API requests while keeping live tokens out of files and logs.",
+    "developerName": "Brahim Hamichan",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "CLI"
+    ],
+    "websiteURL": "https://wise.com",
+    "privacyPolicyURL": "https://wise.com/privacy-policy",
+    "termsOfServiceURL": "https://wise.com/terms-and-conditions",
+    "defaultPrompt": [
+      "Check my Wise CLI auth status.",
+      "List my Wise profiles and balances.",
+      "Create a Wise quote from JSON."
+    ],
+    "brandColor": "#00B9FF",
+    "composerIcon": "./assets/wise-logo.svg",
+    "logo": "./assets/wise-logo.svg"
+  }
+}
